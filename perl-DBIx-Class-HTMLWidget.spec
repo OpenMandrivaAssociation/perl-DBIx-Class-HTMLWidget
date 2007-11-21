@@ -2,7 +2,7 @@
 %define name	perl-%{module}
 %define	modprefix DBIx/Class/
 
-%define version 0.09
+%define version 0.11
 
 %define	rel	1
 %define release %mkrel %{rel}
@@ -14,7 +14,7 @@ Release:	%{release}
 License:	Artistic/GPL
 Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{module}/
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{modprefix}/%{module}-%{version}.tar.gz
+Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/DBIx/%{module}-%{version}.tar.gz
 BuildRequires:	perl(HTML::Widget) >= 1.03
 BuildArch:	noarch
 Buildroot:	%{_tmppath}/%{name}-root
