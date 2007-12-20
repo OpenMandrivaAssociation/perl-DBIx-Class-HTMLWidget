@@ -17,6 +17,7 @@ URL:		http://search.cpan.org/dist/%{module}/
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/DBIx/%{module}-%{version}.tar.gz
 BuildRequires:	perl(HTML::Widget) >= 1.03
 BuildArch:	noarch
+Buildroot:	%{_tmppath}/%{name}-root
 
 %description
 Something like Class::DBI::FromForm / Class::DBI::FromCGI but using
